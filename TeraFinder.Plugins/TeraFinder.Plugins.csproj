@@ -37,7 +37,6 @@
 		<PackageReference Include="LibUsbDotNet" Version="2.2.29" />
 		<PackageReference Include="NLog" Version="5.1.4" />
 		<PackageReference Include="Octokit" Version="7.1.0" />
-		<PackageReference Include="PKHeX.Core" Version="23.8.24" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -56,6 +55,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Reference Include="PKHeX.Core">
+			<HintPath>..\TeraFinder.Core\deps\PKHeX.Core.dll</HintPath>
+		</Reference>
 		<Reference Include="PKHeX.Drawing">
 			<HintPath>Resources\deps\PKHeX.Drawing.dll</HintPath>
 		</Reference>

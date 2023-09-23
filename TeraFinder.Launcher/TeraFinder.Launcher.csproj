@@ -44,6 +44,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<Reference Include="PKHeX.Core">
+			<HintPath>..\TeraFinder.Core\deps\PKHeX.Core.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
 		<Compile Update="Properties\Resources.Designer.cs">
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
